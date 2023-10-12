@@ -155,7 +155,7 @@ class JsonRpcClient
             )
         );
         $context = stream_context_create($opts);
-        if (false !== $response = file_get_contents($this->url, null, $context)) {
+        if (false !== $response = file_get_contents($this->url, false, $context)) {
             $this->debug && $this->debug .= '***** Server response *****' . "\n" . $response . '***** End of server response *****' . "\n";
             $response = json_decode($response, true);
         }
