@@ -1,5 +1,5 @@
 {
-    "name": "sam-it/ls2-jsonrpc-client",
+    "name": "herams/ls2-jsonrpc-client",
     "description": "Implementation of ls-interfaces and jsonRPC for LS2.x",
     "license": "MIT",
     "authors": [
